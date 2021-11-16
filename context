@@ -40,13 +40,13 @@ proxy-groups:
     url: "http://www.gstatic.com/generate_204"
     interval: 300
     use:
-      - bp1
-      - bp2
+      - all
+      - all2
   - name: 选择节点
     type: select
     use:
-      - bp1
-      - bp2
+      - all
+      - all2
   - name: 国内网站
     type: select
     proxies:
@@ -63,7 +63,7 @@ proxy-groups:
       - 选择节点
       - DIRECT
 proxy-providers:
-  bp1:
+  all:
     type: http
     url: "https://raw.githubusercontent.com/ManoErinaYa/Tales/6848d35f3f5453d301c45849e1688bb9da1ffefe/Berseria"
     path: vpn_cracked/5
@@ -73,7 +73,7 @@ proxy-providers:
       interval: 600
       url: http://www.gstatic.com/generate_204
 proxy-providers:
-  bp2:
+  all2:
     type: http
     url: "https://raw.githubusercontent.com/ghylc/clashsub/31b4b851539e9cf5971b4b6ee638596ccc49a281/README.md"
     path: vpn_cracked/6
