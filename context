@@ -61,9 +61,9 @@ proxy-groups:
       - 选择节点
       - DIRECT
 proxy-providers:
-  all:
+  bp1:
     type: http
-    url: "https://raw.githubusercontent.com/zry980321/airportnode/749e777ef0c7a249fcaecb7ada306fc6b6b9c968/%E5%BD%B1%E5%AD%90.yaml"
+    url: "https://raw.githubusercontent.com/ManoErinaYa/Tales/6848d35f3f5453d301c45849e1688bb9da1ffefe/Berseria"
     path: vpn_cracked/5
     interval: 43200
     health-check:
@@ -71,9 +71,9 @@ proxy-providers:
       interval: 600
       url: http://www.gstatic.com/generate_204
 proxy-providers:
-  all:
+  bp2:
     type: http
-    url: "https://raw.githubusercontent.com/heyyell98/heyyell99/8feefc1b1f6595fad5387b965abe4995015c45b6/xj"
+    url: "https://raw.githubusercontent.com/ghylc/clashsub/31b4b851539e9cf5971b4b6ee638596ccc49a281/README.md"
     path: vpn_cracked/6
     interval: 43200
     health-check:
