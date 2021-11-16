@@ -64,7 +64,7 @@ proxy-providers:
   all:
     type: http
     url: "https://raw.githubusercontent.com/zry980321/airportnode/749e777ef0c7a249fcaecb7ada306fc6b6b9c968/%E5%BD%B1%E5%AD%90.yaml"
-    path: vpn_cracked/learnhard
+    path: vpn_cracked/5
     interval: 43200
     health-check:
       enable: true
