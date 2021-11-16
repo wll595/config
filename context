@@ -70,6 +70,16 @@ proxy-providers:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
+proxy-providers:
+  all:
+    type: http
+    url: "https://raw.githubusercontent.com/heyyell98/heyyell99/8feefc1b1f6595fad5387b965abe4995015c45b6/xj"
+    path: vpn_cracked/6
+    interval: 43200
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
 rule-providers:
   reject:
     type: http
