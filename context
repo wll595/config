@@ -40,11 +40,13 @@ proxy-groups:
     url: "http://www.gstatic.com/generate_204"
     interval: 300
     use:
-      - all
+      - bp1
+      - bp2
   - name: 选择节点
     type: select
     use:
-      - all
+      - bp1
+      - bp2
   - name: 国内网站
     type: select
     proxies:
