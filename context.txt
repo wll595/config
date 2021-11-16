@@ -4,7 +4,6 @@ log-level: info
 external-controller: 127.0.0.1:9090
 cfw-bypass:
   - qq.com
-  - 52pojie.cn
   - music.163.com
   - "*.music.126.net"
   - localhost
@@ -64,8 +63,8 @@ proxy-groups:
 proxy-providers:
   all:
     type: http
-    url: "https://raw.githubusercontent.com/colatiger/v2ray-nodes/master/hw_clash.yaml"
-    path: vpn_cracked/1
+    url: "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml"
+    path: vpn_cracked/learnhard
     interval: 43200
     health-check:
       enable: true
